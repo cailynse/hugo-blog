@@ -1,0 +1,28 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+theme = "anatole"
+
+[params]
+title = 'The Dream House'
+author = "Cailyn and Toby"
+description = "A collection of stories, lessons and adventures as we embark on the journey of building our dream house on our new property."
+profilePicture = "images/profile.jpg"
+
+[menu]
+[[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
